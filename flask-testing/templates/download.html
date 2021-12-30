@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Download{% endblock %}
+{% block content %}
+<table>
+    {% for j in value %}
+        <td>{{ j }}</td>
+    {% endfor %}
+</table>
+<a href="/download/"><button>Download</button></a>
+{% endblock %}
